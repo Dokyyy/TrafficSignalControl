@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types>
+   <type id="go_in_to_grid" priority="40" numLanes="1" speed="11.111"/>
+   <type id="go_out_of_grid" priority="60" numLanes="1" speed="11.111"/>
+   <type id="in_grid" priority="50" numLanes="1" speed="11.111"/>
+</types>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+
+    <edge id="edge-left0-0" from="left0" to="0" numLanes="3" width="4" type="go_in_to_grid" />
+    <edge id="edge-0-left0" from="0" to="left0" numLanes="3" width="4" type="go_out_of_grid" />
+    <edge id="edge-left1-3" from="left1" to="3" numLanes="3" width="4" type="go_in_to_grid" />
+    <edge id="edge-3-left1" from="3" to="left1" numLanes="3" width="4" type="go_out_of_grid" />
+    <edge id="edge-left2-6" from="left2" to="6" numLanes="3" width="4" type="go_in_to_grid" />
+    <edge id="edge-6-left2" from="6" to="left2" numLanes="3" width="4" type="go_out_of_grid" />
+    <edge id="edge-right0-2" from="right0" to="2" numLanes="3" width="4" type="go_in_to_grid"/>
+    <edge id="edge-2-right0" from="2" to="right0" numLanes="3" width="4" type="go_out_of_grid"/>
+    <edge id="edge-right1-5" from="right1" to="5" numLanes="3" width="4" type="go_in_to_grid"/>
+    <edge id="edge-5-right1" from="5" to="right1" numLanes="3" width="4" type="go_out_of_grid"/>
+    <edge id="edge-right2-8" from="right2" to="8" numLanes="3" width="4" type="go_in_to_grid"/>
+    <edge id="edge-8-right2" from="8" to="right2" numLanes="3" width="4" type="go_out_of_grid"/>
+    <edge id="edge-top0-0" from="top0" to="0" numLanes="3" width="4" type="go_in_to_grid"/>
+    <edge id="edge-0-top0" from="0" to="top0" numLanes="3" width="4" type="go_out_of_grid"/>
+    <edge id="edge-top1-1" from="top1" to="1" numLanes="3" width="4" type="go_in_to_grid"/>
+    <edge id="edge-1-top1" from="1" to="top1" numLanes="3" width="4" type="go_out_of_grid"/>
+    <edge id="edge-top2-2" from="top2" to="2" numLanes="3" width="4" type="go_in_to_grid"/>
+    <edge id="edge-2-top2" from="2" to="top2" numLanes="3" width="4" type="go_out_of_grid"/>
+    <edge id="edge-bot0-6" from="bot0" to="6" numLanes="3" width="4" type="go_in_to_grid"/>
+    <edge id="edge-6-bot0" from="6" to="bot0" numLanes="3" width="4" type="go_out_of_grid"/>
+    <edge id="edge-bot1-7" from="bot1" to="7" numLanes="3" width="4" type="go_in_to_grid"/>
+    <edge id="edge-7-bot1" from="7" to="bot1" numLanes="3" width="4" type="go_out_of_grid"/>
+    <edge id="edge-bot2-8" from="bot2" to="8" numLanes="3" width="4" type="go_in_to_grid"/>
+    <edge id="edge-8-bot2" from="8" to="bot2" numLanes="3" width="4" type="go_out_of_grid"/>
+    <edge id="edge-0-1" from="0" to="1" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-1-0" from="1" to="0" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-1-2" from="1" to="2" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-2-1" from="2" to="1" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-3-4" from="3" to="4" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-4-3" from="4" to="3" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-4-5" from="4" to="5" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-5-4" from="5" to="4" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-6-7" from="6" to="7" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-7-6" from="7" to="6" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-7-8" from="7" to="8" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-8-7" from="8" to="7" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-0-3" from="0" to="3" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-3-0" from="3" to="0" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-3-6" from="3" to="6" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-6-3" from="6" to="3" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-1-4" from="1" to="4" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-4-1" from="4" to="1" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-4-7" from="4" to="7" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-7-4" from="7" to="4" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-2-5" from="2" to="5" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-5-2" from="5" to="2" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-5-8" from="5" to="8" numLanes="3" width="4" type="in_grid" />
+    <edge id="edge-8-5" from="8" to="5" numLanes="3" width="4" type="in_grid" />
+
+</edges>

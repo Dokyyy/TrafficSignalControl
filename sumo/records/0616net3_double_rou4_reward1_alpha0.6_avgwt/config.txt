@@ -1,0 +1,50 @@
+run_with_DQN_network
+
+EXP_CONFIG:
+model_path : saved_model\0616net3_double_rou4_reward1_alpha0.6_avgwt
+record_path : records\0616net3_double_rou4_reward1_alpha0.6_avgwt
+num_episode : 1
+max_len_per_episode : 64
+
+
+AGENT_CONFIG:
+MLP_layers : [256, 64, 32]
+double : True
+dueling : False
+LEARNING_RATE : 0.0001
+BATCH_SIZE : 64
+gamma : 0.8
+MAX_MEMORY_LEN : 2000
+epsilon_max : 1
+epsilon_decay : 0.95
+epsilon_min : 0.01
+LOSS_FUNCTION : _huber_loss
+NORMAL_FACTOR : 1
+
+
+ENV_CONFIG:
+car_weight : 1
+firetruck_weight : 10
+alpha : 0.6
+reward_function : 1
+avg_wait_time : True
+use_all_avg : False
+len_feature : 1032
+num_intersections : 9
+route : 4
+DATA_PATH : data\grid_3_3
+LOG_PATH : records\0616net3_double_rou4_reward1_alpha0.6_avgwt\csv_record
+list_state_features : ['map_inlanes', 'adjacency_matrix']
+use_gui : True
+time_to_load_vehicles : 0
+delta_time : 10
+max_depart_delay : 1000
+min_green : 5
+max_green : 60
+yellow_time : 4
+single_agent : False
+adjacency_use_distance : False
+top_k : 5
+phases : [[1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0], [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0], [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1]]
+
+

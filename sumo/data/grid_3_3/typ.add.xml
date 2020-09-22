@@ -1,0 +1,4 @@
+<additional>
+    <vType id="Car"  accel="1" decel="4.5" sigma="0.5" length="5" minGap="2" maxSpeed="13.9" />
+    <vType id="FireTruck" accel="1" decel="4.5" sigman="0.5" length="5" minGap="2" maxSpeed="15" color="red" />
+</additional>

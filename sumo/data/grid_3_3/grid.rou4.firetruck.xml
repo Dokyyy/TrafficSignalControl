@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 06/16/20 10:22:20 by Eclipse SUMO duarouter Version 1.3.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="grid.net.xml"/>
+        <additional-files value="typ.add.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="grid.rou4.firetruck.xml"/>
+        <alternatives-output value="grid.rou4.firetruck.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="FireTruck" length="5.00" minGap="2.00" maxSpeed="15.00" color="red" accel="1" decel="4.5"/>
+    <vehicle id="0.0" type="FireTruck" depart="0.00">
+        <route edges="edge-top1-1 edge-1-4 edge-4-5 edge-5-8 edge-8-7"/>
+    </vehicle>
+    <vehicle id="0.1" type="FireTruck" depart="100.00">
+        <route edges="edge-right2-8 edge-8-7 edge-7-6 edge-6-3 edge-3-4"/>
+    </vehicle>
+    <vehicle id="0.2" type="FireTruck" depart="200.00">
+        <route edges="edge-right2-8 edge-8-5 edge-5-4 edge-4-7"/>
+    </vehicle>
+    <vehicle id="0.3" type="FireTruck" depart="300.00">
+        <route edges="edge-7-8 edge-8-5 edge-5-2 edge-2-1 edge-1-4"/>
+    </vehicle>
+    <vehicle id="0.4" type="FireTruck" depart="400.00">
+        <route edges="edge-5-8 edge-8-7 edge-7-6 edge-6-3 edge-3-4 edge-4-7"/>
+    </vehicle>
+    <vehicle id="0.5" type="FireTruck" depart="500.00">
+        <route edges="edge-8-7 edge-7-4"/>
+    </vehicle>
+    <vehicle id="0.6" type="FireTruck" depart="600.00">
+        <route edges="edge-bot2-8 edge-8-5 edge-5-2 edge-2-1"/>
+    </vehicle>
+    <vehicle id="0.7" type="FireTruck" depart="700.00">
+        <route edges="edge-bot2-8 edge-8-5 edge-5-2"/>
+    </vehicle>
+    <vehicle id="0.8" type="FireTruck" depart="800.00">
+        <route edges="edge-5-4 edge-4-7 edge-7-8 edge-8-bot2"/>
+    </vehicle>
+    <vehicle id="0.9" type="FireTruck" depart="900.00">
+        <route edges="edge-2-5 edge-5-4 edge-4-3 edge-3-6"/>
+    </vehicle>
+    <vehicle id="0.10" type="FireTruck" depart="1000.00">
+        <route edges="edge-1-2 edge-2-5 edge-5-4 edge-4-1 edge-1-0 edge-0-top0"/>
+    </vehicle>
+    <vehicle id="0.11" type="FireTruck" depart="1100.00">
+        <route edges="edge-4-1 edge-1-2 edge-2-5 edge-5-4 edge-4-7 edge-7-8 edge-8-5"/>
+    </vehicle>
+    <vehicle id="0.12" type="FireTruck" depart="1200.00">
+        <route edges="edge-left2-6 edge-6-3 edge-3-4 edge-4-5 edge-5-8"/>
+    </vehicle>
+    <vehicle id="0.13" type="FireTruck" depart="1300.00">
+        <route edges="edge-1-4 edge-4-7 edge-7-6"/>
+    </vehicle>
+    <vehicle id="0.14" type="FireTruck" depart="1400.00">
+        <route edges="edge-2-5 edge-5-4 edge-4-7 edge-7-8 edge-8-5"/>
+    </vehicle>
+    <vehicle id="0.15" type="FireTruck" depart="1500.00">
+        <route edges="edge-top2-2 edge-2-1 edge-1-4"/>
+    </vehicle>
+    <vehicle id="0.16" type="FireTruck" depart="1600.00">
+        <route edges="edge-bot0-6 edge-6-7 edge-7-8 edge-8-5 edge-5-4"/>
+    </vehicle>
+    <vehicle id="0.17" type="FireTruck" depart="1700.00">
+        <route edges="edge-top2-2 edge-2-5 edge-5-8"/>
+    </vehicle>
+    <vehicle id="0.18" type="FireTruck" depart="1800.00">
+        <route edges="edge-5-8 edge-8-7 edge-7-6 edge-6-3 edge-3-left1"/>
+    </vehicle>
+    <vehicle id="0.19" type="FireTruck" depart="1900.00">
+        <route edges="edge-top2-2 edge-2-5 edge-5-8 edge-8-7"/>
+    </vehicle>
+    <vehicle id="0.20" type="FireTruck" depart="2000.00">
+        <route edges="edge-7-8 edge-8-5 edge-5-4"/>
+    </vehicle>
+    <vehicle id="0.21" type="FireTruck" depart="2100.00">
+        <route edges="edge-0-3 edge-3-4 edge-4-7 edge-7-6"/>
+    </vehicle>
+    <vehicle id="0.22" type="FireTruck" depart="2200.00">
+        <route edges="edge-top1-1 edge-1-0 edge-0-3 edge-3-6"/>
+    </vehicle>
+    <vehicle id="0.23" type="FireTruck" depart="2300.00">
+        <route edges="edge-bot1-7 edge-7-4 edge-4-5 edge-5-8 edge-8-7 edge-7-bot1"/>
+    </vehicle>
+    <vehicle id="0.24" type="FireTruck" depart="2400.00">
+        <route edges="edge-top0-0 edge-0-1 edge-1-4 edge-4-5 edge-5-8 edge-8-bot2"/>
+    </vehicle>
+    <vehicle id="0.25" type="FireTruck" depart="2500.00">
+        <route edges="edge-2-5 edge-5-8 edge-8-7 edge-7-bot1"/>
+    </vehicle>
+    <vehicle id="0.26" type="FireTruck" depart="2600.00">
+        <route edges="edge-right1-5 edge-5-4 edge-4-1 edge-1-2 edge-2-5"/>
+    </vehicle>
+    <vehicle id="0.27" type="FireTruck" depart="2700.00">
+        <route edges="edge-7-8 edge-8-right2"/>
+    </vehicle>
+    <vehicle id="0.28" type="FireTruck" depart="2800.00">
+        <route edges="edge-0-1 edge-1-4 edge-4-7 edge-7-bot1"/>
+    </vehicle>
+    <vehicle id="0.29" type="FireTruck" depart="2900.00">
+        <route edges="edge-1-2 edge-2-5 edge-5-4 edge-4-7 edge-7-6 edge-6-left2"/>
+    </vehicle>
+    <vehicle id="0.30" type="FireTruck" depart="3000.00">
+        <route edges="edge-bot2-8 edge-8-5 edge-5-2 edge-2-1"/>
+    </vehicle>
+    <vehicle id="0.31" type="FireTruck" depart="3100.00">
+        <route edges="edge-8-5 edge-5-2 edge-2-1 edge-1-top1"/>
+    </vehicle>
+    <vehicle id="0.32" type="FireTruck" depart="3200.00">
+        <route edges="edge-left0-0 edge-0-3 edge-3-6 edge-6-bot0"/>
+    </vehicle>
+    <vehicle id="0.33" type="FireTruck" depart="3300.00">
+        <route edges="edge-5-2 edge-2-1 edge-1-0 edge-0-left0"/>
+    </vehicle>
+    <vehicle id="0.34" type="FireTruck" depart="3400.00">
+        <route edges="edge-4-1 edge-1-0 edge-0-3"/>
+    </vehicle>
+    <vehicle id="0.35" type="FireTruck" depart="3500.00">
+        <route edges="edge-0-3 edge-3-6 edge-6-7 edge-7-4"/>
+    </vehicle>
+</routes>
